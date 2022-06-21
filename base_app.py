@@ -41,16 +41,24 @@ def main():
 
 	# Creates a main title and subheader on your page -
 	# these are static across all pages
-	st.title("Tweet Classifer")
+	st.title("TWEET CLASSIFIER")
 	st.subheader("Climate change tweet classification")
+	st.subheader("created by Data Polaroid (c)2022")
+	st.page_icon = "✅"
+	st.layout = "wide"
+	#st.set_page_config(
+    #	page_title="Real-Time Data Science Dashboard",
+    #	page_icon="✅",
+    #	layout="wide",
+	#	)
 
 	# Creating sidebar with selection box -
 	# you can create multiple pages this way
-	options = ["Prediction", "Information"]
+	options = ["Prediction", "About the App", "Dashboard"]
 	selection = st.sidebar.selectbox("Choose Option", options)
 
 	# Building out the "Information" page
-	if selection == "Information":
+	if selection == "About the App":
 		st.info("General Information")
 		# You can read a markdown file from supporting resources folder
 		st.markdown("Some information here")
@@ -58,6 +66,9 @@ def main():
 		st.subheader("Raw Twitter data and label")
 		if st.checkbox('Show raw data'): # data is hidden if box is unchecked
 			st.write(raw[['sentiment', 'message']]) # will write the df to the page
+		
+		st.subheader("The App Developers")
+		st.markdown("Some information here")
 
 	# Building out the predication page
 	if selection == "Prediction":
@@ -77,6 +88,12 @@ def main():
 			# You can use a dictionary or similar structure to make this output
 			# more human interpretable.
 			st.success("Text Categorized as: {}".format(prediction))
+	#if selection == "Dashboard":
+		#kpi1, kpi2, kpi3 = st.columns(3) # dividing the layout into three columns
+		#kpi1.metric(label="Reliability ⏳",value=round(accuracy,2),delta=round(avg_age) - 10,)
+		#kpi2.metric(label="Tweets Analysed 💍",value=int(len(tweets)),delta=-10 + count_married,)
+
+
 
 # Required to let Streamlit instantiate our web app.  
 if __name__ == '__main__':
