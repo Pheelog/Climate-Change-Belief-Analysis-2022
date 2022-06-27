@@ -1,0 +1,25 @@
+.about-head{
+	font-size: 16pt;
+	font-weight: bolder;
+	color: white;
+	border-bottom: 4px solid rgb(0, 150, 150);
+	width: 300px;
+}
+
+.main{
+	background-color: black;
+}
+
+.sub-head {
+	color: green;
+	margin-top:20px;
+	font-size: 16pt;
+}
+
+.sub-body{
+	margin-bottom: 40px;
+}
+
+.sub-par {
+	text-align: justify;
+}
