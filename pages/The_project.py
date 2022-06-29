@@ -12,15 +12,15 @@ st.markdown('''<div class='sub-head'>
             
 st.markdown('''<div class='sub-body'> 
                 <p class="sub-par">
-                    Many companies are built around lessening one’s environmental impact or carbon footprint.
+                    Many companies are built around lessening their environmental impact or carbon footprint.
                     They offer products and services that are environmentally friendly and sustainable, in line with their values and ideals.
-                    They would like to determine how people perceive climate change and whether or
+                    As such, they would like to determine how people perceive climate change and whether or
                     not they believe it is a real threat. This would add to their market research efforts in
                     gauging how their product/service may be received. 
                 </p>
                 <p class="sub-par">
-                    With this context, this notebook provides a walthrough the creation of a Machine Learning model
-                    that is able to classify whether or not a person believes in climate change, based on their novel tweet data.
+                    With this context, this notebook provides a walthrough on the creation of a Machine Learning model
+                    that is able to classify whether or not a person believes in climate change based on their novel tweet data.
                     Providing an accurate and robust solution to this task gives companies access to a broad base of consumer sentiment,
                     spanning multiple demographic and geographic categories - thus increasing their insights and informing future
                     marketing strategies.
@@ -34,10 +34,10 @@ st.markdown('''<div class='sub-head'>
             </div>''', unsafe_allow_html=True)
 st.markdown('''<div class='sub-body'> 
                 <p class="sub-par">
-                    The fashion industry has a fdestructive effect on the climate. By estimation, the fashion industry accounts for 
-                    about 8% of the total CO<sub>2</sub> global emission - greater than all the international flights, maritime and shipping 
-                    combined. This is because people want to change clothes as quickly as possible and there is a need to match the growing
-                    demands of glothes.
+                    The fashion industry has a destructive effect on the climate. By estimation, the fashion industry accounts for 
+                    about 8% of the total CO<sub>2</sub> global emission - greater than the international flights, maritime and shipping
+                    industries combined. This is because people want to change clothes as quickly as possible and there is a need to match 
+                    supply with the growing demand of clothes.
                 </p>
             </div>''', unsafe_allow_html=True)
 
@@ -50,7 +50,7 @@ st.markdown('''<div class='sub-body'>
                     clothing by pregnant women or growing children.
                 </p>
                 <p class="sub-par">
-                    Petit Pli needs tomarket this product to a suitable market. Hence they need a market where there is a sentiment which 
+                    Petit Pli needs to market this product to a suitable market. Hence they need a market where there is a sentiment which 
                     believes in climate change. These target market is where they can maximize sales due to the belief of the people which
                     should tally with the objective of the product - ecologically friendly.
                 </p>

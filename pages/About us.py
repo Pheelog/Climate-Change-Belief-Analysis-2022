@@ -7,7 +7,7 @@ with open('styles/about.css') as f:
     
 st.markdown("<div class='about-head'> About Us </div>", unsafe_allow_html=True)
 
-st.markdown('''<p class='about-body'> Polaroids is an institution that makes sense of data using machine learning methods
+st.markdown('''<p class='about-body'> Polaroid is an institution that makes sense of data using machine learning methods
                                        to provide solutions that improve lives. Our mission is to drive changes that lead to a greener earth.
                                        </p>''', unsafe_allow_html=True)
 
