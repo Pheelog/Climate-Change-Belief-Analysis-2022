@@ -32,7 +32,7 @@ def main():
     st.sidebar.write("1: Pro - The tweet link to factual news about climate change")
     st.sidebar.write("2: News - The tweet supports the belief of man-made climate change")
     st.sidebar.write("0: Neutral - The tweet neither supports nor refutes the belief of man-made climate change")
-    st.sidebar.write("-1: Ani - The tweet does not believe in man-made climate change")
+    st.sidebar.write("-1: Anti - The tweet does not believe in man-made climate change")
     
     st.sidebar.markdown(f'''<img class="logo-down" src="data:image/png;base64,
                             {base64.b64encode(open('resources/imgs/logo.png', "rb").read()).decode()}">''', unsafe_allow_html=True)

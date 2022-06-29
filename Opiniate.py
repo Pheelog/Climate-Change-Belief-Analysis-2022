@@ -32,7 +32,7 @@ def main():
     
     # create the header banner
     st.image('resources/imgs/logo.png')
-    st.markdown('<div class="sub-class"> Weather Sentiment Application </div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-class"> Climate Sentiment Application </div>', unsafe_allow_html=True)
     st.markdown('<a href="Prediction" class="action-button"> Make Predictions </div>', unsafe_allow_html=True)
 
 if __name__ == '__main__':

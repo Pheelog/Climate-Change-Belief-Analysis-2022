@@ -15,37 +15,37 @@ st.markdown(
     f"""
         <div class="each-image">
             <div class="img-cont">
-                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/pheelo.jpg', "rb").read()).decode()}">
+                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/pheelo.jpeg', "rb").read()).decode()}">
             </div>
             <p class="team-name">Philip Ogunmola</p>
         </div>
         <div class="each-image">
             <div class="img-cont">
-                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/abdul.jpg', "rb").read()).decode()}">
+                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/abdul.jpeg', "rb").read()).decode()}">
             </div>
             <p class="team-name">Abubakar Abdulkadir</p>
         </div>
         <div class="each-image">
             <div class='img-cont'>
-                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/joseph.jpg', "rb").read()).decode()}">
+                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/joseph.jpeg', "rb").read()).decode()}">
             </div>
             <p class="team-name">Joseph Mugo</p>
         </div>
         <div class="each-image">
             <div class='img-cont'>
-                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/rogers.jfif', "rb").read()).decode()}">
+                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/rogers.jpeg', "rb").read()).decode()}">
             </div>
             <p class="team-name">Rogers Mugambi</p>
         </div>
         <div class="each-image">
             <div class='img-cont'>
-                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/nana.jfif', "rb").read()).decode()}" />
+                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/nana.jpeg', "rb").read()).decode()}" />
             </div>
             <p class="team-name">Adewale Nana</p>
         </div>
         <div class="each-image">
             <div class='img-cont'>
-                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/philip.png', "rb").read()).decode()}">
+                <img class="team-img" src="data:image/png;base64,{base64.b64encode(open('resources/imgs/philip.jpeg', "rb").read()).decode()}">
             </div>
             <p class="team-name">Philip Wambua</p>
         </div>
