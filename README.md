@@ -1,6 +1,6 @@
 # Streamlit-based Web Application
 
-## 0) A demo of the streamlit web app we developed to run our trained models.[(resources/imgs/Opiniate%201.0%20Demo.png)](https://youtu.be/KgIXWpi62q8))
+[![A demo of the streamlit web app we developed to run our trained models.](resources/imgs/Opiniate%201.0%20Demo.png)](https://youtu.be/KgIXWpi62q8)
 
 
 #### EXPLORE Data Science Academy Classification Predict
