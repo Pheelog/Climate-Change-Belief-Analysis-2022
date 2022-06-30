@@ -35,7 +35,7 @@ st.markdown('''<div class='sub-head'>
 st.markdown('''<div class='sub-body'> 
                 <p class="sub-par">
                     The fashion industry has a destructive effect on the climate. By estimation, the fashion industry accounts for 
-                    about 8% of the total CO<sub>2</sub> global emission - greater than the international flights, maritime and shipping
+                    about 8% of the total CO<sub>2</sub> global emission - greater than international flights, maritime and shipping
                     industries combined. This is because people want to change clothes as quickly as possible and there is a need to match 
                     supply with the growing demand of clothes.
                 </p>
@@ -51,7 +51,7 @@ st.markdown('''<div class='sub-body'>
                 </p>
                 <p class="sub-par">
                     Petit Pli needs to market this product to a suitable market. Hence they need a market where there is a sentiment which 
-                    believes in climate change. These target market is where they can maximize sales due to the belief of the people which
+                    believes in climate change. These target markets are where they can maximize sales due to the belief of the people which
                     should tally with the objective of the product - ecologically friendly.
                 </p>
             </div>''', unsafe_allow_html=True)
@@ -62,7 +62,7 @@ st.markdown('''<div class='sub-head'>
 st.markdown('''<div class='sub-body'> 
                 <p class="sub-par">
                     Opiniate 1.0 is a web application for sentiment analysis. This application will allow our client to enter tweets collected  
-                    from persons in a Geolocation and gets the climate sentiment estimate of the environment. This will allow our Client to
-                    decide on environments to invest efforts and resources to maximize revenue.
+                    from persons in a Geolocation and get the climate sentiment estimate of the environment. This will allow our Client to
+                    decide on the environments where they can invest efforts and resources to maximize revenue.
                 </p>
             </div>''', unsafe_allow_html=True)
