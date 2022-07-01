@@ -47,17 +47,16 @@ def main():
     
     sample = st.checkbox(label="Or Use our Test Dataset", value=False)
     
-    col1, col2, col3 = st.columns([2,2,2])
+    col1, col2, col3 = st.columns([1,1,1])
     
     with col1:
         ridge = st.button("Ridge Classifier")
-        bayes = st.button("Bayes Classifier")
+        
     with col2:
-        knn = st.button("KNN Model")
-        svc = st.button("SVC Model")
+        bayes = st.button("Bayes Classifier")
+        
     with col3:
         sgdc = st.button("SGDC Model")
-        ada = st.button("ADA Boost Model")
         
     # The preprocessing function
     def clean_data(text):
@@ -139,18 +138,10 @@ def main():
     elif bayes:
         model = joblib.load(open(os.path.join("models/bayes.pkl"),"rb"))
         clicked = True
-    elif knn:
-        model = joblib.load(open(os.path.join("models/knn.pkl"),"rb"))
-        clicked = True
-    elif svc:
-        model = joblib.load(open(os.path.join("models/svc.pkl"),"rb"))
-        clicked = True
     elif sgdc:
         model = joblib.load(open(os.path.join("models/sgdc.pkl"),"rb"))
         clicked = True
-    elif ada:
-        model = joblib.load(open(os.path.join("models/ada.pkl"),"rb"))
-        clicked = True
+   
     
     if clicked:
         data, index = preprocess(file, sample, tweet)
